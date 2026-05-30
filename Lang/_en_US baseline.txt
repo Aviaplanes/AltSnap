@@ -1,0 +1,272 @@
+; Translation file for AltSnap 1.67
+; en-US localization by Stefan Sundin
+; Updated by Raymond Gillibert to take in account modifications.
+; Use this as a baseline for translation to any other language.
+; then rename the file with the language-country code and
+; with a .ini extension and put it in the Altdrag\Lang directorry.
+; Use encoding UTF-16LE with BOM to be able to use Unicode
+
+; Accelerators can be set using '&' prefix for any leter.
+; You can also set (&X) in a string if the X accelerator
+; that you want to does not appear in the string.
+; In the case of the InputAction* and InputHotkeys* the string will
+; be striped from its '&' and anything between parenthesis ( ) before
+; being displayed in a droplist.
+
+[Translation]
+Code=en-US
+LangEnglish=English
+Lang=English
+Author=Stefan Sundin
+
+; Tray Menu
+MenuEnable=&Enable
+MenuDisable=&Disable
+MenuHideTray=&Hide tray
+MenuOpenIniFile=&Open ini file
+MenuConfigure=&Configure...
+MenuEmptyZone=  (empty)
+MenuSnapLayout=Snap layout &
+MenuSaveZones=&Save test windows as snap layout
+MenuCloseAllZones=C&lose all test windows
+MenuEditLayout=Edi&t snap layout
+MenuAbout=&About
+MenuExit=E&xit
+
+; Global titles
+ConfigTitle=AltDrag Configuration
+ConfigTabGeneral=General
+ConfigTabMouse=Mouse
+ConfigTabKeyboard=Keyboard
+ConfigTabBlacklist=Blacklist
+ConfigTabAdvanced=Advanced
+ConfigTabAbout=About
+
+; General
+GeneralBox=General settings
+GeneralAutoFocus=&Focus windows when dragging.\nYou can also press Ctrl to focus windows.
+GeneralAero=Mimic Aero S&nap
+GeneralSmartAero=Smart Aero Sna&p dimensions
+GeneralSmarterAero=Smarter Aer&o Snap dimensions
+GeneralStickyResize=Resi&ze other snapped windows with Shift
+GeneralInactiveScroll=&Scroll inactive windows
+GeneralMDI=&MDI support
+GeneralPiercingClick=Avoi&d blocking Alt+Click (disables AltSnap double-clicks)
+GeneralAutoSnap=Automatically s&nap to:
+GeneralAutoSnap0=Disabled
+GeneralAutoSnap1=To screen borders
+GeneralAutoSnap2=+ outside of windows
+GeneralAutoSnap3=+ inside of windows
+GeneralLanguage=&Language:
+GeneralResizeAll=&Resize all windows
+GeneralResizeCenter=Center resize mode
+GeneralResizeCenterNorm=All d&irections
+GeneralResizeCenterBr=B&ottom right
+GeneralResizeCenterMove=Mo&ve
+GeneralResizeCenterClose=Clos&est side
+
+GeneralUseZones=Snap to Layo&ut with Shift (configure with tray menu)
+GeneralAutostartBox=Autostart
+GeneralAutostart=S&tart AltDrag when logging on
+GeneralAutostartHide=&Hide tray
+GeneralAutostartElevate=&Elevate to administrator privileges
+GeneralAutostartElevateTip=Note that a UAC prompt will appear every time you log in, unless you disable UAC completely or use the Task Scheduler.\nTo setup a Scheduled task for this purpose, you can use the sch_On.bat batch files in Altsnap's folder.
+GeneralElevate=E&levate
+GeneralElevated=Elevated
+GeneralElevationAborted=Elevation aborted.
+
+; Mouse Input
+InputMouseBox=Mouse actions
+InputMouseBtAc1=&1. Primary
+InputMouseBtAc2=&2. Alternate
+InputMouseINTTB=&Title bar
+InputMouseWhileM=Whil&e moving
+InputMouseWhileR=While resi&zing
+
+InputMouseLMB=Left mouse &button:
+InputMouseMMB=&Middle mouse button:
+InputMouseRMB=Ri&ght mouse button:
+InputMouseMB4=Mouse button &4:
+InputMouseMB5=Mouse button &5:
+InputMouseScroll=&Scroll wheel:
+InputMouseHScroll=Scroll wheel (&horizontal):
+InputMouseMoveUp=Long &drag-free Move:
+InputMouseResizeUp=Long drag-&free Resize:
+InputMouseTTBActionBox=Use specific actions when clicking the Title bar
+InputMouseTTBActionNA=Without hot&key
+InputMouseTTBActionWA=&With hotkey
+
+; Actions
+InputActionMove=&Move window
+InputActionResize=Re&size window
+InputActionRestore=Restore window
+InputActionClose=&Close window
+InputActionKill=&Kill program
+InputActionMinimize=Mi&nimize window
+InputActionMaximize=Ma&ximize window
+InputActionLower=&Lower window
+InputActionFocus=Focus window
+InputActionAlwaysOnTop=Toggle always on &top
+InputActionBorderless=Toggle &Borderless
+InputActionCenter=C&enter on desktop
+InputActionCenter2=Center on &physical monitor
+InputActionNothing=Nothing
+InputActionAltTab=Alt+Tab
+InputActionVolume=Volume
+InputActionTransparency=Transparency
+InputActionRoll=&Roll/Unroll window
+InputActionMenu=Action menu
+InputActionHScroll=Horizontal scroll
+InputActionMaximizeHV=Maximize &Vertically
+InputActionMinAllOther=Minimize &other windows
+InputActionMute=Mute &sounds
+InputActionSideSnap=&Snap to monitor side/corner
+InputActionExtendSnap=Extend to monitor side/corner
+InputActionExtendTNEdge=Extend to next edge
+InputActionMoveTNEdge=Move to next edge
+InputActionZoom=Zoom window
+InputActionZoom2=Zoom window 2
+InputActionNStacked=Next stacked window
+InputActionNStacked2=Next stacked window 2
+InputActionPStacked=Previous stacked window
+InputActionPStacked2=Previous stacked window 2
+InputActionNPStacked=Next/Prev stacked window
+InputActionNPStacked2=Next/Prev laser stacked window
+InputActionStackList=Stacked windows list
+InputActionStackList2=Laser stacked windows list
+InputActionAltTabList=Windows list
+InputActionAltTabFullList=All windows list
+InputActionMZone=Move to zone
+InputActionXZone=Extend to zone
+InputActionASOnOff=S&uspend/Resume AltSnap
+InputActionMoveOnOff=Movement dis&abled
+InputActionOriClick=Send ori&ginal click
+InputActionStep=Step
+InputActionNPLayout=Next/Prev Snap Layout
+InputActionNLayout=Next Snap Layout
+InputActionPLayout=Previous Snap Layout
+
+InputActionPause=Pause program
+InputActionResume=Resume program
+
+; Keybaord Input
+InputHotclicksBox=Activate with click
+InputMouseMMBHC=M&iddle mouse button
+InputMouseMB4HC=M&ouse button 4
+InputMouseMB5HC=Mo&use button 5
+InputMouseLongClickMove=Mo&ve windows with a long left-click
+InputHotclicksMore=A checked button can be combined with an action but it will always be blocked in this case.
+
+InputHotkeysBox=Hotkeys:
+InputHotkeysAlt=Alt
+InputHotkeysCtrl=Ctrl
+InputHotkeysWinkey=Winkey
+InputHotkeysShift=Shift
+
+InputHotkeysShortcuts=S&hortcut for action:
+InputHotkeysShortcutsPick=Pick &keys
+InputHotkeysShortcutsClear=Clear ke&ys
+InputHotkeysShortcutsSet=Sa&ve
+InputHotkeysUsePtWindow=Apply to the &pointed window
+
+InputHotkeysLeftAlt=L&eft Alt
+InputHotkeysRightAlt=&Right Alt
+InputHotkeysLeftWinkey=Left &Winkey
+InputHotkeysRightWinkey=Right W&inkey
+InputHotkeysLeftCtrl=&Left Ctrl
+InputHotkeysRightCtrl=Ri&ght Ctrl
+InputHotkeysLeftShift=Left Shift
+InputHotkeysRightShift=Right Shift
+InputKeyCombo=Use two keys &combo to activate
+InputGrabWithAlt=&Activate without click
+InputGrabWithAltB=Acti&on without click (alt):
+InputAggressivePause=&Pause process on Alt+Shift+Pause (Alt+Pause to resume).
+InputAggressiveKill=&Kill process on Ctrl+Alt+F4\nAlso adds the kill option to the action menu
+InputScrollLockState=Enable/Disable AltDrag based on &Scroll lock state
+
+InputHotkeysModKey=Modifier key for al&ternate action:
+InputHotkeysMore=You can add any key by editing the ini file.\nUse the shift key to snap windows to each other.
+; Blacklist
+BlacklistBox=Blacklist settings
+BlacklistProcessBlacklist=&Process blacklist:
+BlacklistBlacklist=&Window blacklist:
+BlacklistScrolllist=Window that should ignore &scroll action:
+BlacklistMDIs=&MDIs not to be treated as such:
+BlacklistPause=Processes not to be pa&used or killed:
+BlacklistFindWindowBox=Identify window
+
+; Advanced
+AdvancedMetricsBox=Metrics
+AdvancedCenterFraction=&Center/Sides fraction (%):
+AdvancedAeroHoffset=Aero offset (%) &Horizontal:
+AdvancedAeroVoffset=&Vertical:
+AdvancedSnapThreshold=&Snap Threshold (pixels):
+AdvancedAeroThreshold=&Aero Threshold (pixels):
+AdvancedSnapGap=Snapping &gap (pixels):
+AdvancedAeroSpeed=Ma&x snapping speed (pixels):
+AdvancedTestWindow=Test &Window
+AdvancedMoveTrans=Opacit&y when moving:
+AdvancedBehaviorBox=Behavior
+AdvancedMultipleInstances=Allow multiple &instances of AltDrag
+AdvancedAutoRemaximize=Automatically &remaximize windows when changing monitor
+AdvancedAeroTopMaximizes=&Maximize windows snapped at top
+AdvancedAeroDBClickShift=Invert shift &behavior for double-click aero snapping
+AdvancedMaxWithLClick=&Toggle maximize state with the resize button while moving
+AdvancedRestoreOnClick=Rest&ore window with single click like original AltDrag
+AdvancedFullScreen=Enable on &full screen windows
+AdvancedBLMaximized=&Disable AltSnap on Maximized windows
+AdvancedFancyZone=Restore Fancy&Zones snapped windows
+AdvancedNoRestore=Never restore AltSna&pped windows
+AdvancedTopmostIndicator=Show an i&ndicator on always on top windows
+
+; About dialog
+AboutBox=About AltDrag
+AboutVersion=Version
+AboutAuthor=Created by Stefan Sundin
+AboutAuthor2=Maintained by Raymond Gillibert
+AboutLicense=AltDrag is free and open source software!\nFeel free to redistribute!
+AboutTranslationCredit=Translation credit
+
+MiscZoneConfirmation=Erase old snap layout and save current Test Windows positions as the new snap layout?
+MiscUnhookError=There was an error disabling AltDrag. This was most likely caused by Windows having already disabled AltDrag's hooks.\n\nIf this is the first time this has happened, you can safely ignore it and continue using AltDrag.\n\nIf this is happening repeatedly, you can read on the website how to prevent this from happening again (look for 'AltDrag mysteriously stops working' in the documentation).
+MiscZoneTestWinHelp=To setup Snap layout:\n1) Open several of those Test Windows\n2) Dispose them as you please\n3) Hit the *&Save test windows as snap layout* option in the tray menu
+
+; Spetial extra keyboard Input
+InputUniKeyHoldMenu=Pop&up an extended character menu when holding an alphabetic key down
+
+; List of characters that populate the extended key menu
+;A=àáâäãåæª%āăąǎǟǡǣǻǽȁȃȧ|Ȧḁ%ⱥ|Ⱥɐ|Ɐɑ|Ɑɒ|Ɒⲁ|Ⲁⓐ
+;B=%ƀɓƃƅɃ%ɓḃḅḇⓑ
+;C=ç¢©%ćĉċčƈḉȼ|Ȼɕⓒ
+;D=ð%ďđɖɗƌƍḋḍḏḑḓǆǅǳǲȡȸⓓ
+;E=èéêë€%ēĕėęěǝəɛȅȇḕḗḙḛȩ|Ȩḝɇ|Ɇⱸⓔ
+;F=ƒ%ḟɸⱷⓕ%♩♪♮♭♯♬♫
+;G=%ǵǧḡɠɣǥⓖ
+;H=%ĥħƕǶḣḥḧḩḫȟ|Ȟⱨ|Ⱨⱶ|Ⱶẖⓗ
+;I=ìíîï%ĩīĭǐȉȋįİıĳɩɨḭḯⓘ
+;J=%ĵǰȷɉ|Ɉⓙ
+;K=%ķĸƙǩḱḳⱪ|Ⱪꝁ|Ꝁʞ|Ʞⓚ
+;L=£%ĺļľŀłƛǉǈȴƚ|Ƚⱡ|Ⱡɫ|Ɫḷḹḻḽⓛ
+;M=µ%ḿṁṃɱ|Ɱɯⓜ
+;N=ñ%ńņňŉŋɲƞ|Ƞǌǋǹȵ%ṅṇṉṋⓝ
+;O=òóôöõø°%ōŏő%ɔɵơƣǒǫǭǿȍȏȣ|Ȣȫ|Ȫȭ|Ȭȯ|Ȯȱ|Ȱṍṏṑṓ%ⱺⓞ
+;P=¶þ·•%ƥᵽ|Ᵽṕṗⓟ
+;Q=¿¤‰‘’“”„…–—«»‹›%ȹɋ|Ɋⓠ
+;R=®%ŕŗřƦȑȓṙṛṝṟɍ|Ɍɽ|Ɽⱹⓡ
+;S=šß§%śŝşſ%ƨʃƪș|Șȿ|Ȿ%ṡṣṥṧṩⓢ
+;T=†‡™%ţťŧƫƭʈț|Țȶⱦ|Ⱦ%ṫṭṯṱẗⓣ
+;U=ùúûü%ũūůŭűų%ưʊǔǖǘǚǜȕȗʉ|Ʉ%ṳṵṷṹṻⓤ
+;V=%ʋɅⱱⱴ%ṽṿⓥ
+;W=%ẁẃŵẅⱳ|Ⱳ%ẇẉⓦ
+;X=±×÷¬%ẋẍⓧ
+;Y=ýÿ¥%ŷẏȳ|Ȳƴɏ|Ɏⓨ
+;Z=ž%źẑżẓẕ%ƶʒƹƺǯȥ|Ȥɀ|Ɀⱬ|Ⱬⓩ
+
+; No separator between each letter, just the list...
+; All char should be set lower-case if applicable
+; You can put a % to include a sparator, I used it to separat LATIN-1 from unicode characters
+;
+; Use lowercase|UPPERCASE if Windows can not convert a letter by himself, you should set
+; ie: a|Ab|Bc|C. In general it is not needed but Windows is buggy for some characters
+; for instance It is required for ȧ|Ȧ, ȭ|Ȭ but not needed for ṓ ask MS why...
+; it is not a problem if you over-do it and specify x|X even if x uppercasing is handled by MS.
