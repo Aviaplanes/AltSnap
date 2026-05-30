@@ -359,7 +359,7 @@ static const struct OptionListItem Performance_uchars[] = {
     { "RefreshRate", 0 },
     { "RezTimer", 0 },
     { "PinRate", 32 },
-    { "MoveRate", 2 },
+    { "MoveRate", 1 },
     { "ResizeRate", 1 },
 };
 // [Input]
